@@ -4,7 +4,7 @@ import * as appSchema from './schema';
 import { DrizzleServiceBase } from './drizzle-base.service';
 
 @Injectable()
-export class DrizzleSsoService extends DrizzleServiceBase<typeof appSchema> {
+export class DrizzleService extends DrizzleServiceBase<typeof appSchema> {
   constructor(
     @Inject('DrizzleAsyncProvider')
     db: NodePgDatabase<typeof appSchema>,
