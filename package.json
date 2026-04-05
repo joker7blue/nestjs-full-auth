@@ -1,8 +1,8 @@
 {
-  "name": "nest-typescript-starter",
+  "name": "nest-full-auth",
   "private": true,
   "version": "1.0.0",
-  "description": "Nest TypeScript starter repository",
+  "description": "A comprehensive NestJS authentication system with JWT, OAuth, 2FA, and Drizzle ORM",
   "license": "MIT",
   "scripts": {
     "build": "nest build",
