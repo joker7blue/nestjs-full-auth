@@ -1,5 +1,5 @@
 import { Global, Module } from '@nestjs/common';
-import * as appSchema from './schema';
+import * as appSchema from '@/schema';
 import { DrizzleService } from './drizzle.service';
 import { DrizzleBaseModule } from './drizzle-base.module';
 
