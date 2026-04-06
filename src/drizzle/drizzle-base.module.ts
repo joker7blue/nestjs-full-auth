@@ -1,9 +1,6 @@
 import { DynamicModule, Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import {
-  createDrizzleProvider,
-  DRIZZLE_ASYNC_PROVIDER,
-} from './drizzle.provider';
+import { createDrizzleProvider, DRIZZLE_ASYNC_PROVIDER } from './drizzle.provider';
 
 export interface DrizzleModuleOptions {
   schema: Record<string, any>;
